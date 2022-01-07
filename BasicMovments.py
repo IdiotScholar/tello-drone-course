@@ -8,6 +8,7 @@ print(me.get_battery())
 
 # takeoff() functions takes off
 # land() function lands the drone
+#TODO: drone doenst stay staitionary and drifts fix this.
 me.takeoff()
 me.send_rc_control(0, 50, 0, 0)
 sleep(1)
